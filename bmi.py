@@ -15,4 +15,9 @@ def calculate_bmi(height, weight):
   else:
     print("Normal Weight")
 
-calculate_bmi(weight=57, height=1.73)
+def main():
+  print("ET0735 (DevOps for AIoT) - Lab 2 - Introduction to Python")
+  calculate_bmi(weight=57, height=1.73)
+
+if __name__ == "__main__":
+    main()
